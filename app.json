@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "react-native-strava",
+    "scheme": "strava-app",
+    "slug": "react-native-strava",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.strava.app"
+    },
+    "android": {
+      "package": "com.strava.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "488ef228-c89b-46bf-ab6d-95b1be8d0ae8"
+      }
+    },
+    "owner": "lucasdeep10"
+  }
+}
